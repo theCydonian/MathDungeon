@@ -4,13 +4,17 @@
   "description": "a math education game",
   "main": "app.js",
   "scripts": {
+    "build": "lessc web/src/static/style/index.less web/dist/static/style/index.css",
     "start": "node app.js"
   },
   "author": "Marco Burstein <marco@marco.how>",
   "private": true,
   "license": "UNLICENSED",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "parcel": "^1.11.0"
+    "firebase-admin": "^7.0.0",
+    "handlebars": "^4.1.0",
+    "parcel-bundler": "^1.11.0"
   }
 }

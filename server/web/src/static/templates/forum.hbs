@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>MathDungeon Forums</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"   
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <h1>
+            MathDungeon Forums
+        </h1>
+        <a href="/make-forum-post">Make a post!</a>
+        <div>
+            <table>
+                {{#each forumPosts}}
+                <tr class="post-row" data-key={{@key}}>
+                    <td>{{this.poster}}</td>
+                    <td>{{this.title}}</td>
+                    <td>{{this.date}}</td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+
+        <script src="/static/js/forum.js"></script>
+    </body>
+</html>

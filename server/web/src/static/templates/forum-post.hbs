@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>MathDungeon Forums</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"   
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <h1>
+            MathDungeon Forums
+        </h1>
+        <div>
+            <h2>{{title}}</h2>
+            <p>
+                <strong>{{poster}}</strong>
+                <br />
+                {{body}}
+                {{date}}
+            </p>
+        </div>
+        <div>
+            <h3>Comments</h3>
+            {{#each comments}}
+                <p>
+                    <strong>{{commenter}}</strong>
+                    <br />
+                    {{body}}
+                    {{date}}
+                </p>
+            {{/each}}
+        </div>
+        <div>
+            <strong>Make a comment</strong>
+            <input type="text" id="comment-commenter-field" placeholder="Your Name" />
+            <textarea id="comment-body-field" cols="30" rows="10" placeholder="Your Comment"></textarea>
+            <button id="comment-button">Comment</button>
+        </div>
+
+        <script src="/static/js/forum-post.js"></script>
+    </body>
+</html>
