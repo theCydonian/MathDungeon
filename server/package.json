@@ -1,0 +1,16 @@
+{
+  "name": "mathdungeon",
+  "version": "0.0.0",
+  "description": "a math education game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Marco Burstein <marco@marco.how>",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.4",
+    "parcel": "^1.11.0"
+  }
+}
