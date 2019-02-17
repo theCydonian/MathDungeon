@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 <<<<<<< HEAD
 	"process_id" : 25583,
@@ -16,3 +17,12 @@
 	"app_contents_path" : "/Applications/Unity/Unity.app/Contents"
 >>>>>>> b0649d9617f678f43ceb888d8d9859d8bcca541f
 }
+||||||| merged common ancestors
+=======
+{
+	"process_id" : 4510,
+	"version" : "2018.3.6f1",
+	"app_path" : "/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app",
+	"app_contents_path" : "/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app/Contents"
+}
+>>>>>>> 2fe986ebdd96d198e705ce917b12568f3bfa8e18
