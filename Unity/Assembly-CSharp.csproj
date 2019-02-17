@@ -65,9 +65,11 @@
     <Compile Include="Assets\Scripts\fireProj.cs" />
     <Compile Include="Assets\Scripts\FunctionControl.cs" />
     <Compile Include="Assets\Scripts\MoveProjectiles.cs" />
+    <Compile Include="Assets\Scripts\PersonMove.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\PlusOrMinus.cs" />
     <Compile Include="Assets\Scripts\ScrollBar.cs" />
+    <Compile Include="Assets\Scripts\WallRotation.cs" />
     <None Include="Assets\Materials\AimShader.shader" />
     <None Include="Assets\ModelMaterials\AimShader.shader" />
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
