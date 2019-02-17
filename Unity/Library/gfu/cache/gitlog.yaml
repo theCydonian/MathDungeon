@@ -13,9 +13,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-02-16T21:54:21.235-08:00
+  lastUpdatedAtString: 2019-02-16T21:55:09.311-08:00
   initializedAtString: 2019-02-16T21:49:26.694-08:00
   log:
+  - commitID: 41eea6c68c8f26e86d82c79b97a2e7efd8d889fd
+    mergeA: 
+    mergeB: 
+    authorName: theCydonian
+    authorEmail: 31706764+theCydonian@users.noreply.github.com
+    commitEmail: 31706764+theCydonian@users.noreply.github.com
+    commitName: theCydonian
+    summary: nada
+    description: nada
+    timeString: 2019-02-16T21:54:34.000-08:00
+    commitTimeString: 2019-02-16T21:54:34.000-08:00
+    changes:
+    - path: Unity/Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Assembly-CSharp.csproj
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/ScriptMapper
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptMapper
+      projectPath: Library/ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/assetDatabase3
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/branches.yaml
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal
+        Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9afcc56ad2bc3194e2263ec90749cc91e0d5ead3
     mergeA: 9117b04f7a2adc30fd214f2f39d55aed89b37559
     mergeB: b0649d9617f678f43ceb888d8d9859d8bcca541f

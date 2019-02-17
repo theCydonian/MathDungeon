@@ -13,30 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-16T21:54:13.929-08:00
+  lastUpdatedAtString: 2019-02-16T21:55:06.103-08:00
   initializedAtString: 2019-02-16T21:49:14.864-08:00
   entries:
-  - path: Unity/Assembly-CSharp.csproj
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Unity/Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Unity/Library/assetDatabase3
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Library/assetDatabase3
-    projectPath: Library/assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Unity/Library/gfu/cache/branches.yaml
     fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
       Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/branches.yaml
@@ -51,6 +30,13 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Unity/Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Unity/Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
       Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
@@ -62,13 +48,6 @@ MonoBehaviour:
     fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
       Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Unity/Library/ScriptMapper
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Library/ScriptMapper
-    projectPath: Library/ScriptMapper
     originalPath: 
     status: 3
     staged: 0
