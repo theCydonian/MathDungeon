@@ -116,3 +116,5 @@ typings/
 
 webgl-build
 dist
+firebase-serivce-key.json
+firebase-url.json
