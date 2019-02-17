@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Endgame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveProjectiles.cs">
     <Files>
-      <File FileName="Assets/Scripts/Endgame.cs" Line="22" Column="34" />
-      <File FileName="Assets/Scripts/PersonMove.cs" Line="6" Column="20" />
-      <File FileName="Assets/Scripts/Lose.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/PlayerControl.cs" Line="51" Column="27" />
+      <File FileName="Assets/Scripts/GUIToText.cs" Line="53" Column="33" />
+      <File FileName="Assets/Scripts/FunctionControl.cs" Line="57" Column="63" />
+      <File FileName="Assets/Scripts/FireButton.cs" Line="19" Column="12" />
+      <File FileName="Assets/Scripts/SetPlayerFunction.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/fireProj.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MoveProjectiles.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
