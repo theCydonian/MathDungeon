@@ -15,15 +15,20 @@
                 <a href="/">
                     Math Dungeon
                 </a>
+                <span class="links">
+                    <a href="/forum">
+                        Forums
+                    </a>
+                </span>
             </h1>
         </nav>
-        <div class="content">
+        <div class="content game">
             <h1>
                 {{title}}
             </h1>
             <div style="width: 800px; height: 400px;" id="game-container"></div>
         </div>
-        <a href="/{{nextURL}}" class="button">Play!</a>
+        <a href="/{{nextURL}}" class="button">{{nextTitle}}</a>
         <script>
             loadWebGL("{{gameName}}");
         </script>

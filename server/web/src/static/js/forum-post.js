@@ -15,8 +15,10 @@ $(document).on('click', '#comment-button', function () {
     }).done((data) => {
         $('#comment-commenter-field').val('');
         $('#comment-body-field').val('');
+        location.reload();
     }).fail((error) => {
         $('#comment-commenter-field').val('');
         $('#comment-body-field').val('');
+        location.reload();
     });
 });
