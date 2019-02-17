@@ -25,6 +25,13 @@ public class MoveProjectiles : MonoBehaviour {
             temp.transform.parent = null;
             StartCoroutine(kill());
         }
+        if (col.gameObject.tag == "Enemy")
+        {
+            col.gameObject.GetComponent<Enemy>().Die();
+            GameObject temp = Instantiate(boom);
+            temp.transform.parent = null;
+            StartCoroutine(kill());
+        }
     }
     IEnumerator kill () {
         yield return new WaitForSeconds(0.2f);

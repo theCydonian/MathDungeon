@@ -13,13 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-02-16T20:42:04.938-08:00
-  initializedAtString: 2019-02-16T20:42:04.836-08:00
+  lastUpdatedAtString: 2019-02-16T21:49:17.507-08:00
+  initializedAtString: 2019-02-16T21:49:17.459-08:00
   localBranches:
   - name: master
     tracking: origin/master
+  - name: dev/unity
+    tracking: origin/dev/unity
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   - name: origin/dev/unity
     tracking: '[None]'
@@ -34,22 +38,34 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - dev/unity
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/theCydonian/MathDungeon.git
       trackingBranch: master
+    - name: dev/unity
+      remote:
+        name: origin
+        url: https://github.com/theCydonian/MathDungeon.git
+      trackingBranch: dev/unity
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+      - master
       - dev/unity
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/theCydonian/MathDungeon.git
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/theCydonian/MathDungeon.git
