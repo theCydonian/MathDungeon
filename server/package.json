@@ -4,7 +4,7 @@
   "description": "a math education game",
   "main": "app.js",
   "scripts": {
-    "build": "lessc web/src/static/style/index.less web/dist/static/style/index.css && lessc web/src/static/style/lesson.less web/dist/static/style/lesson.css",
+    "build": "lessc web/src/static/style/index.less web/dist/static/style/index.css && lessc web/src/static/style/lesson.less web/dist/static/style/lesson.css && lessc web/src/static/style/forum.less web/dist/static/style/forum.css",
     "dev": "concurrently \"npm run build\" \"npm run start\"",
     "start": "node app.js"
   },
@@ -13,6 +13,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "firebase-admin": "^7.0.0",
     "handlebars": "^4.1.0",

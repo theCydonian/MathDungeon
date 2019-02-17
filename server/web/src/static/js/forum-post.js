@@ -12,5 +12,11 @@ $(document).on('click', '#comment-button', function () {
         }), 
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
+    }).done((data) => {
+        $('#comment-commenter-field').val('');
+        $('#comment-body-field').val('');
+    }).fail((error) => {
+        $('#comment-commenter-field').val('');
+        $('#comment-body-field').val('');
     });
 });

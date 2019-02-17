@@ -13,5 +13,9 @@ $(document).on('click', '#post-button', function () {
         }), 
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
+    }).done((data) => {
+        window.location.href = '/forum';
+    }).fail((error) => {
+        window.location.href = '/forum';
     });
 });

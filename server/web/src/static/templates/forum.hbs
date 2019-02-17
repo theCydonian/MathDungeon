@@ -6,22 +6,29 @@
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   
             crossorigin="anonymous"
         ></script>
+        <link rel="stylesheet" href="/static/style/forum.css">
     </head>
     <body>
-        <h1>
-            MathDungeon Forums
-        </h1>
-        <a href="/make-forum-post">Make a post!</a>
-        <div>
-            <table>
-                {{#each forumPosts}}
-                <tr class="post-row" data-key={{@key}}>
-                    <td>{{this.poster}}</td>
-                    <td>{{this.title}}</td>
-                    <td>{{this.date}}</td>
-                </tr>
-                {{/each}}
-            </table>
+        <nav>
+            <h1>
+                <a href="/forum">
+                    Math Dungeon Forums
+                </a>
+            </h1>
+        </nav>
+        <div class="content">
+            <a href="/make-forum-post">Make a post!</a>
+            <div>
+                <table>
+                    {{#each forumPosts}}
+                    <tr class="post-row" data-key={{@key}}>
+                        <td class="poster-td">{{this.poster}}</td>
+                        <td class="title-td">{{this.title}}</td>
+                        <td class="date-td">{{this.date}}</td>
+                    </tr>
+                    {{/each}}
+                </table>
+            </div>
         </div>
 
         <script src="/static/js/forum.js"></script>
