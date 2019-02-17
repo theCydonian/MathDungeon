@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-02-16T21:44:00.139-08:00
-  initializedAtString: 2019-02-16T21:44:00.139-08:00
+  lastUpdatedAtString: 2019-02-16T22:38:50.293-08:00
+  initializedAtString: 2019-02-16T22:38:50.293-08:00
   currentGitRemote:
     name: origin
-    url: https://github.com/theCydonian/MathDungeon.git
+    url: git@github.com:theCydonian/MathDungeon.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: dev/unity
     remote:
       name: origin
-      url: https://github.com/theCydonian/MathDungeon.git
+      url: git@github.com:theCydonian/MathDungeon.git
     trackingBranch: dev/unity
   currentConfigRemote:
     name: origin
-    url: https://github.com/theCydonian/MathDungeon.git
+    url: git@github.com:theCydonian/MathDungeon.git
   currentHead: 
