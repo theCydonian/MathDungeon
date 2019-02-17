@@ -13,9 +13,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-02-16T21:55:56.857-08:00
+  lastUpdatedAtString: 2019-02-16T22:01:05.908-08:00
   initializedAtString: 2019-02-16T21:55:56.706-08:00
   log:
+  - commitID: e4c67eb6736b67b7573dc7b73056414189c35270
+    mergeA: 
+    mergeB: 
+    authorName: codewick-chadwick
+    authorEmail: jboondicharern2020@chadwickschool.org
+    commitEmail: jboondicharern2020@chadwickschool.org
+    commitName: codewick-chadwick
+    summary: a
+    description: a
+    timeString: 2019-02-16T21:56:58.000-08:00
+    commitTimeString: 2019-02-16T21:56:58.000-08:00
+    changes:
+    - path: Unity/Library/CrashedAssetImports.txt
+      fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/CrashedAssetImports.txt
+      projectPath: Library/CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Unity/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Unity/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: b0649d9617f678f43ceb888d8d9859d8bcca541f
     mergeA: 
     mergeB: 
