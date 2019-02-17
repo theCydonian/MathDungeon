@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-16T23:07:12.432-08:00
-  initializedAtString: 2019-02-16T22:38:50.746-08:00
-  entries: []
+  lastUpdatedAtString: 2019-02-16T23:16:48.101-08:00
+  initializedAtString: 2019-02-16T23:10:23.378-08:00
+  entries:
+  - path: Unity/Library/assetDatabase3
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
