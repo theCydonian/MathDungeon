@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{CD8C9303-404B-FB8D-6B9B-21988D5CAC0A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lose.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WallRotation.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerControl.cs" Line="54" Column="76" />
       <File FileName="Assets/Scripts/MoveProjectiles.cs" Line="12" Column="20" />
@@ -10,7 +10,9 @@
       <File FileName="Assets/Scripts/SetPlayerFunction.cs" Line="25" Column="10" />
       <File FileName="Assets/Scripts/FunctionControl.cs" Line="61" Column="53" />
       <File FileName="Assets/Scripts/deleteSelf.cs" Line="19" Column="15" />
-      <File FileName="Assets/Scripts/Lose.cs" Line="18" Column="15" />
+      <File FileName="Assets/Scripts/Lose.cs" Line="29" Column="14" />
+      <File FileName="Assets/Scripts/WallRotation.cs" Line="37" Column="8" />
+      <File FileName="Assets/Scripts/PersonMove.cs" Line="30" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
