@@ -13,6 +13,348 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-17T05:28:27.333-08:00
-  initializedAtString: 2019-02-17T05:28:26.541-08:00
-  entries: []
+  lastUpdatedAtString: 2019-02-17T06:17:33.140-08:00
+  initializedAtString: 2019-02-17T06:17:32.611-08:00
+  entries:
+  - path: Unity/.vs/Unity/xs/sqlite3/storage.ide
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/.vs/Unity/xs/sqlite3/storage.ide
+    projectPath: .vs/Unity/xs/sqlite3/storage.ide
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/.vs/Unity/xs/sqlite3/storage.ide-shm
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/.vs/Unity/xs/sqlite3/storage.ide-shm
+    projectPath: .vs/Unity/xs/sqlite3/storage.ide-shm
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/.vs/Unity/xs/sqlite3/storage.ide-wal
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/.vs/Unity/xs/sqlite3/storage.ide-wal
+    projectPath: .vs/Unity/xs/sqlite3/storage.ide-wal
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/.vs/Unity/xs/UserPrefs.xml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/.vs/Unity/xs/UserPrefs.xml
+    projectPath: .vs/Unity/xs/UserPrefs.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assembly-CSharp.csproj
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assets/Scenes/Menu_PostProcessing.asset
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Assets/Scenes/Menu_PostProcessing.asset
+    projectPath: Assets/Scenes/Menu_PostProcessing.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assets/Scenes/To Be Continued.unity
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Assets/Scenes/To Be Continued.unity
+    projectPath: Assets/Scenes/To Be Continued.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Assets/Scenes/To Be Continued.unity.meta
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Assets/Scenes/To Be Continued.unity.meta
+    projectPath: Assets/Scenes/To Be Continued.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Assets/Scripts/Endgame.cs
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Assets/Scripts/Endgame.cs
+    projectPath: Assets/Scripts/Endgame.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Assets/Scripts/Endgame.cs.meta
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Assets/Scripts/Endgame.cs.meta
+    projectPath: Assets/Scripts/Endgame.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/assetDatabase3
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/CrashedAssetImports.txt
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/CurrentLayout.dwlt
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/EditorInstance.json
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/InspectorExpandedItems.asset
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/LastSceneManagerSetup.txt
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/metadata/6b/6b5d3c26775854d2a8df685bae42cd7c
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/metadata/6b/6b5d3c26775854d2a8df685bae42cd7c
+    projectPath: Library/metadata/6b/6b5d3c26775854d2a8df685bae42cd7c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def
+    projectPath: Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def.info
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def.info
+    projectPath: Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d
+    projectPath: Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d.info
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d.info
+    projectPath: Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ShaderCache.db
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache.db
+    projectPath: Library/ShaderCache.db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ShaderCache/0/03ec5e5558b55c5c06459c4acbd38903.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/0/03ec5e5558b55c5c06459c4acbd38903.bin
+    projectPath: Library/ShaderCache/0/03ec5e5558b55c5c06459c4acbd38903.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/0/067f520085f9182538ff2620c23e87b0.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/0/067f520085f9182538ff2620c23e87b0.bin
+    projectPath: Library/ShaderCache/0/067f520085f9182538ff2620c23e87b0.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/2/2fa7e9f6ab859e7e9146dc671806cc53.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/2/2fa7e9f6ab859e7e9146dc671806cc53.bin
+    projectPath: Library/ShaderCache/2/2fa7e9f6ab859e7e9146dc671806cc53.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/3/31e2e066af0a3805e7429834e0c5741a.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/3/31e2e066af0a3805e7429834e0c5741a.bin
+    projectPath: Library/ShaderCache/3/31e2e066af0a3805e7429834e0c5741a.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/4/45d96e5a03a9ebde9d9354221bb5f4fd.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/4/45d96e5a03a9ebde9d9354221bb5f4fd.bin
+    projectPath: Library/ShaderCache/4/45d96e5a03a9ebde9d9354221bb5f4fd.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/5/526b464c7510c06e4cdb0152b61b6234.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/5/526b464c7510c06e4cdb0152b61b6234.bin
+    projectPath: Library/ShaderCache/5/526b464c7510c06e4cdb0152b61b6234.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/7/778568c9c6c326021dfef6af7eaa0ca6.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/7/778568c9c6c326021dfef6af7eaa0ca6.bin
+    projectPath: Library/ShaderCache/7/778568c9c6c326021dfef6af7eaa0ca6.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/7/7bc0a443115fd789d5eab62ff15c79d0.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/7/7bc0a443115fd789d5eab62ff15c79d0.bin
+    projectPath: Library/ShaderCache/7/7bc0a443115fd789d5eab62ff15c79d0.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/9/9d7cc906bdc6df4e2a6913ed5f3687fc.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/9/9d7cc906bdc6df4e2a6913ed5f3687fc.bin
+    projectPath: Library/ShaderCache/9/9d7cc906bdc6df4e2a6913ed5f3687fc.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/a/a3fffb9a483214bf0f99e771d1f72b8e.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/a/a3fffb9a483214bf0f99e771d1f72b8e.bin
+    projectPath: Library/ShaderCache/a/a3fffb9a483214bf0f99e771d1f72b8e.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/a/ad35aa6fd257917beb2d92ac6ae2f47f.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/a/ad35aa6fd257917beb2d92ac6ae2f47f.bin
+    projectPath: Library/ShaderCache/a/ad35aa6fd257917beb2d92ac6ae2f47f.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/ShaderCache/c/c4b2afaf7d6a1cf146a71d133a820417.bin
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache/c/c4b2afaf7d6a1cf146a71d133a820417.bin
+    projectPath: Library/ShaderCache/c/c4b2afaf7d6a1cf146a71d133a820417.bin
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/d008d2-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/StateCache/SceneView/0c6032-mainStage.json
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/StateCache/SceneView/0c6032-mainStage.json
+    projectPath: Library/StateCache/SceneView/0c6032-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/obj/Release/Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/obj/Release/Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj/Release/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/obj/Release/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/obj/Release/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj/Release/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Temp/__Backupscenes/0.backup
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityLockfile
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-2aa14a8a60c5e49ccb6eb32e63f9df00
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-2aa14a8a60c5e49ccb6eb32e63f9df00
+    projectPath: Temp/UnityTempFile-2aa14a8a60c5e49ccb6eb32e63f9df00
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-41e0e7d0c6d984555a7040d8a0ebbd91
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-41e0e7d0c6d984555a7040d8a0ebbd91
+    projectPath: Temp/UnityTempFile-41e0e7d0c6d984555a7040d8a0ebbd91
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-9a9681475a30e4107a254ffa084c9fa9
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-9a9681475a30e4107a254ffa084c9fa9
+    projectPath: Temp/UnityTempFile-9a9681475a30e4107a254ffa084c9fa9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-b2f58851b0eb045ec9003cef93ac86cb
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-b2f58851b0eb045ec9003cef93ac86cb
+    projectPath: Temp/UnityTempFile-b2f58851b0eb045ec9003cef93ac86cb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-bc32d8b20bade4a21ac77b63a3ff2b58
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-bc32d8b20bade4a21ac77b63a3ff2b58
+    projectPath: Temp/UnityTempFile-bc32d8b20bade4a21ac77b63a3ff2b58
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-c67f1dab75dd2403180afb1a9743e9a7
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-c67f1dab75dd2403180afb1a9743e9a7
+    projectPath: Temp/UnityTempFile-c67f1dab75dd2403180afb1a9743e9a7
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-d0b5454b8cca844ed9acb6cfa4723aea
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-d0b5454b8cca844ed9acb6cfa4723aea
+    projectPath: Temp/UnityTempFile-d0b5454b8cca844ed9acb6cfa4723aea
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-e32fdc4c152094ad5a5cf32f5e342c69
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-e32fdc4c152094ad5a5cf32f5e342c69
+    projectPath: Temp/UnityTempFile-e32fdc4c152094ad5a5cf32f5e342c69
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-e5437db8e2ff6465dbdc2947a414c924
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityTempFile-e5437db8e2ff6465dbdc2947a414c924
+    projectPath: Temp/UnityTempFile-e5437db8e2ff6465dbdc2947a414c924
+    originalPath: 
+    status: 1
+    staged: 0
