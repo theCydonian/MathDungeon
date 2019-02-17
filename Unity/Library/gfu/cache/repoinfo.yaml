@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-02-17T05:28:26.364-08:00
-  initializedAtString: 2019-02-17T05:28:26.364-08:00
+  lastUpdatedAtString: 2019-02-17T06:13:24.886-08:00
+  initializedAtString: 2019-02-17T06:13:24.886-08:00
   currentGitRemote:
     name: origin
     url: https://github.com/theCydonian/MathDungeon.git
