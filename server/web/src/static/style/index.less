@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+@background-gradient: linear-gradient(180deg, #3964D0 0%, #254DB3 100%);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    background: #eeeeee;
+}
+
+nav {
+    overflow: hidden;
+    padding: 40px 63px 0px 50px;
+    height: 110px;
+    display: block;
+    width: 100%;
+    background: @background-gradient;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Montserrat;
+}
+
+nav h1 {
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+nav .links {
+    float: right;
+    height: 50px;
+    overflow: hidden;
+
+    a {
+        margin: 0px 10px;
+        padding: 10px 0px;
+        display: inline-block;
+    }
+}
+
+nav .link {
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+.description {
+    font-family: Montserrat;
+    font-size: 20px;
+    margin: 60px 200px 50px;
+}
+
+.main-button {
+    color: white;
+    font-family: Montserrat;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background: @background-gradient;
+    width: 300px;
+    height: 80px;
+    display: block;
+    margin: 0px auto;
+} 

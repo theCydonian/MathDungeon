@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+@background-gradient: linear-gradient(180deg, #3964D0 0%, #254DB3 100%);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    background: #eeeeee;
+}
+
+nav {
+    overflow: hidden;
+    padding: 40px 63px 0px 50px;
+    height: 100px;
+    display: block;
+    width: 100%;
+    background: @background-gradient;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Montserrat;
+}
+
+nav h1 {
+    font-size: 23px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+nav .link {
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+
+.content {
+    margin: 50px 0px;
+    padding: 0px 100px;
+    font-family: Montserrat;
+
+    a {
+        font-weight: bold;
+    }
+
+    table {
+        margin-top: 30px;
+        border-radius: 5px;
+        border-collapse: collapse;
+
+        .poster-td {
+            width: 30%;
+            padding-left: 50px;
+        }
+
+        .title-td {
+            width: 60%;
+            font-weight: bold;
+        }
+
+        .date-td {
+            width: 10%;
+            padding-right: 50px;
+        }
+
+        tr:first-of-type td:first-of-type {
+            border-radius: 5px 0px 0px 0px;
+        }
+
+        tr:first-of-type td:last-of-type {
+            border-radius: 0px 5px 0px 0px;
+        }
+
+        tr:last-of-type td:first-of-type {
+            border-radius: 0px 0px 0px 5px;
+        }
+
+        tr:last-of-type td:last-of-type {
+            border-radius: 0px 0px 5px 0px;
+        }
+
+        tr {
+            height: 60px;
+            padding: 0px 10%;
+            background: #dddddd;
+            cursor: pointer;
+        } 
+
+        tr:nth-child(even):hover, tr:hover {
+            background: #c0c0c0 !important;
+        }
+        
+        tr:nth-child(even) {
+            background: #d4d4d4;
+        }
+    }
+}
+
+.content.center {
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+input, textarea {
+    display: block;
+    padding: 6px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px 2px #dddddd;
+    width: 400px;
+    margin: 15px 0px;
+}
+
+button {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background: @background-gradient;
+    width: 220px;
+    height: 40px;
+    display: block;
+    margin: 0px 0px 0px 80px;
+} 
