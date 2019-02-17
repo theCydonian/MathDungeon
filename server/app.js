@@ -31,8 +31,20 @@ app.get('/lesson/:lesson', (req, res) => {
 
 app.get('/game/:name', (req, res) => {
     let name = req.params.name;
-    
-    res.send(gameTemplate({ gameName: name }));
+    let title;
+    let nextURL;
+
+    switch (name) {
+        case "linear-1":
+            title = "Linear Functions #1";
+            nextURL = "lesson/quadratic";
+    }
+
+    res.send(gameTemplate({ 
+        gameName: name,
+        title, 
+        nextURL,
+    }));
 });
 
 app.get('/forum', (req, res) => {
