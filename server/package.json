@@ -4,7 +4,8 @@
   "description": "a math education game",
   "main": "app.js",
   "scripts": {
-    "build": "lessc web/src/static/style/index.less web/dist/static/style/index.css",
+    "build": "lessc web/src/static/style/index.less web/dist/static/style/index.css && lessc web/src/static/style/lesson.less web/dist/static/style/lesson.css",
+    "dev": "concurrently \"npm run build\" \"npm run start\"",
     "start": "node app.js"
   },
   "author": "Marco Burstein <marco@marco.how>",

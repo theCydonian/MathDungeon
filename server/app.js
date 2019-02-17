@@ -2,16 +2,29 @@ let path = require('path');
 let express = require('express');
 let bodyParser = require('body-parser');
 let app = express();
+let fs = require('fs');
 let templates = require('./util/templates.js');
 let db = require('./util/db.js');
 
 let forumTemplate = templates.get('./web/src/static/templates/forum.hbs');
 let forumPostTemplate = templates.get('./web/src/static/templates/forum-post.hbs');
+let lessonTemplate = templates.get('./web/src/static/templates/lesson.hbs');
 
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './web/src/static/templates/index.html'));
+});
+
+app.get('/lesson/:lesson', (req, res) => {
+    let lesson = req.params.lesson;
+
+    let lessonHTML = fs.readFileSync(
+        path.join(__dirname, './web/src/static/templates/lessons/' + lesson + '.html'),
+        'utf-8',
+    );
+    
+    res.send(lessonTemplate({ lessonHTML }));
 });
 
 app.get('/forum', (req, res) => {
@@ -75,7 +88,7 @@ app.post('/api/make-forum-comment', (req, res) => {
 
 app.use('/static/js', express.static('web/src/static/js/'));
 app.use('/static/webgl-build', express.static('web/src/static/webgl-build/'));
-app.use('/static/style', express.static('web/dist/static/js/'));
+app.use('/static/style', express.static('web/dist/static/style/'));
 
 let port = process.env.PORT || 8080;
 
