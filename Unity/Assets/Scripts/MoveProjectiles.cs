@@ -16,8 +16,8 @@ public class MoveProjectiles : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-            transform.position = new Vector3((float)fx.output(dir * amount + transform.position.z),
-                 transform.position.y, (float)(transform.position.z + dir * amount));
+            transform.localPosition = new Vector3((float)fx.output(dir * amount + transform.localPosition.z),
+                 transform.localPosition.y, (float)(transform.localPosition.z + dir * amount));
     }
 	void OnTriggerEnter (Collider col) {
 		if (col.gameObject.tag == "Wall") {
