@@ -68,6 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   function: x^2
+  sensitivity: 0.5
 --- !u!114 &2101119351
 MonoBehaviour:
   m_ObjectHideFlags: 0
