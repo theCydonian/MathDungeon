@@ -13,40 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-16T21:55:06.103-08:00
-  initializedAtString: 2019-02-16T21:49:14.864-08:00
+  lastUpdatedAtString: 2019-02-16T21:55:55.641-08:00
+  initializedAtString: 2019-02-16T21:44:00.515-08:00
   entries:
-  - path: Unity/Library/gfu/cache/branches.yaml
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/branches.yaml
-    projectPath: Library/gfu/cache/branches.yaml
+  - path: Unity/Library/CrashedAssetImports.txt
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Unity/Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Unity/Library/gfu/cache/gitlog.yaml
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
-    originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Unity/Library/gfu/cache/gitstatusentries.yaml
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/gfu/cache/gittrackingstatus.yaml
-    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
-      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
     status: 3
