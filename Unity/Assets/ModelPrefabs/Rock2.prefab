@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3419902573439974155}
-  - component: {fileID: 5221560292276199029}
-  - component: {fileID: 8553995662165014705}
+  - component: {fileID: 3542500284136271987}
+  - component: {fileID: 9127479640604988443}
   m_Layer: 0
   m_Name: Rock2
   m_TagString: Wall
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5221560292276199029
+--- !u!65 &3542500284136271987
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,7 +46,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &8553995662165014705
+--- !u!65 &9127479640604988443
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,6 +66,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3419902573439974155}
     m_Modifications:
+    - target: {fileID: 100000, guid: c85119785b99948afac255e771ea0866, type: 3}
+      propertyPath: m_Name
+      value: Rock2
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c85119785b99948afac255e771ea0866, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -109,10 +113,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: c85119785b99948afac255e771ea0866, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: c85119785b99948afac255e771ea0866, type: 3}
-      propertyPath: m_Name
-      value: Rock2
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: c85119785b99948afac255e771ea0866, type: 3}
       propertyPath: m_Materials.Array.data[0]

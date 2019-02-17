@@ -9,15 +9,20 @@ public class MoveProjectiles : MonoBehaviour {
 	public double amount;
     private float time;
     public GameObject boom;
+    private Rigidbody rb;
+    public Vector3 initPos;
+
 	void Start () {
 		fx = GameObject.FindGameObjectWithTag ("Player").GetComponent<FunctionControl> ();
         time = 0;
-	}
+        rb = gameObject.GetComponent<Rigidbody>();
+        initPos = rb.position;
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-            transform.localPosition = new Vector3((float)fx.output(dir * amount + transform.localPosition.z),
-                 transform.localPosition.y, (float)(transform.localPosition.z + dir * amount));
+        rb.position = new Vector3((float)(rb.position.x + dir * amount),
+                 rb.position.y, (float)(initPos.z+fx.output(dir * amount + rb.position.x-initPos.x)));
     }
 	void OnTriggerEnter (Collider col) {
 		if (col.gameObject.tag == "Wall") {
