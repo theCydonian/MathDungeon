@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6112822082102183038}
   - component: {fileID: 708455647364973786}
+  - component: {fileID: 5196272975737174025}
   m_Layer: 0
   m_Name: Block2
   m_TagString: Wall
@@ -41,6 +42,19 @@ BoxCollider:
   m_GameObject: {fileID: 5196272975737174024}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &5196272975737174025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5196272975737174024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
