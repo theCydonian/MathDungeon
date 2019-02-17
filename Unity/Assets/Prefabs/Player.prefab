@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5636549281376421667}
+  - component: {fileID: 1905181797}
+  - component: {fileID: 1905181798}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -31,6 +33,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1905181797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636549281376421666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80ff011c0b494b999751922ae2daade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fx: {fileID: 1905181798}
+  pointObject: {fileID: 75107832916332915, guid: e34ac22ed287d4625805c9c79d31dde1,
+    type: 3}
+  mSlope: 2
+  startPos: 0
+  range: 21
+  divider: 0.4
+  yint: 0
+--- !u!114 &1905181798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636549281376421666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02888a9990ec49c8811662199e2c809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  function: ((0-1)*(((x-2))^2))+4
 --- !u!1 &5636549281990567362
 GameObject:
   m_ObjectHideFlags: 0

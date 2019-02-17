@@ -16,7 +16,10 @@ public class FunctionControl : MonoBehaviour {
 	void Update () {
 		
 	}
-	public double output(double a) {
+    public void Reset() {
+        function = postFix(function);
+    }
+    public double output(double a) {
 		string functionDupe = function.Replace ("x", Convert.ToString(a));
 		return eval(functionDupe);
 	}
@@ -73,7 +76,7 @@ public class FunctionControl : MonoBehaviour {
 				char popped = ' ';
 				while (popped != '(') {
 					if (popped == '+' || popped == '-' || popped == '*' || popped == '/' || popped == '^') {
-						output = output + " " + popped + " ";
+						output = output + " " + popped;
 					}
 					popped = stack.Pop ();
 				}
