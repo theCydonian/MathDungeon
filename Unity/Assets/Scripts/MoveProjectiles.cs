@@ -29,10 +29,9 @@ public class MoveProjectiles : MonoBehaviour {
         if (col.gameObject.tag == "Enemy")
         {
             col.gameObject.GetComponent<Enemy>().Die();
-            GameObject temp = Instantiate(boom);
-            temp.transform.parent = null;
-            temp.transform.position = transform.position;
-            Destroy(gameObject);
+            //GameObject temp = Instantiate(boom);
+            //temp.transform.parent = null;
+            //temp.transform.position = transform.position;
         }
     }
 }
