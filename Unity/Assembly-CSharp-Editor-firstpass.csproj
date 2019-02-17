@@ -65,9 +65,16 @@
     <Compile Include="Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs" />
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
+<<<<<<< HEAD
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
+||||||| merged common ancestors
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>/Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+=======
+>>>>>>> b0649d9617f678f43ceb888d8d9859d8bcca541f
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -76,6 +83,15 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>/Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>/Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
@@ -86,12 +102,22 @@
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
+||||||| merged common ancestors
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>/Users/macbookair13/Desktop/MathDungeon/Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+=======
+>>>>>>> b0649d9617f678f43ceb888d8d9859d8bcca541f
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>

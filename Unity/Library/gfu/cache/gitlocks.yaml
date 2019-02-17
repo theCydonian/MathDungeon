@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-02-16T21:49:15.745-08:00
   initializedAtString: 2019-02-16T21:49:15.745-08:00
+||||||| merged common ancestors
+<<<<<<< HEAD
+  lastUpdatedAtString: 2019-02-16T20:46:24.526-08:00
+  initializedAtString: 2019-02-16T20:45:22.161-08:00
+=======
+  lastUpdatedAtString: 2019-02-16T20:36:33.737-08:00
+  initializedAtString: 2019-02-16T20:36:33.737-08:00
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
+=======
+  lastUpdatedAtString: 2019-02-16T21:48:36.125-08:00
+  initializedAtString: 2019-02-16T21:44:01.145-08:00
+>>>>>>> b0649d9617f678f43ceb888d8d9859d8bcca541f
   gitLocks: []
