@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "MathDungeon",
+"productName": "FunctionDungeon",
 "dataUrl": "linear-2b.data.unityweb",
 "wasmCodeUrl": "linear-2b.wasm.code.unityweb",
 "wasmFrameworkUrl": "linear-2b.wasm.framework.unityweb",

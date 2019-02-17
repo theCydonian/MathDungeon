@@ -1,5 +1,5 @@
 {
-  "name": "mathdungeon",
+  "name": "FunctionDungeon",
   "version": "0.0.0",
   "description": "a math education game",
   "main": "app.js",
