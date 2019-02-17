@@ -37,15 +37,15 @@ public class FunctionControl : MonoBehaviour {
 				switch (current) {
 				case "+":
 					eval.Push (eval.Pop () + eval.Pop ());
-					break;
+                        break;
 				case "-":
 					t1 = eval.Pop ();
 					t2 = eval.Pop ();
 					eval.Push (t2-t1);
-					break;
+                    break;
 				case "*":
-					eval.Push (eval.Pop () * eval.Pop ());
-					break;
+                        eval.Push(eval.Pop() * eval.Pop());
+                    break;
 				case "/":
 					t1 = eval.Pop ();
 					t2 = eval.Pop ();
@@ -54,14 +54,14 @@ public class FunctionControl : MonoBehaviour {
 				case "^":
 					t1 = eval.Pop ();
 					t2 = eval.Pop ();
-					eval.Push (Mathf.Pow ((float)(t2), (float)(t1)));
+					eval.Push (Mathf.Pow ((float)(t2), (float)(t1/sensitivity)));
 					break;
 				}
 			} else {
 				eval.Push (Convert.ToDouble(current)*sensitivity);
 			}
 		}
-		return eval.Pop();
+        return eval.Pop();
 	}
 	private string postFix (string str) {
 		string a = str; //copy of input

@@ -11,6 +11,7 @@ public class MoveProjectiles : MonoBehaviour {
     public GameObject boom;
     private Rigidbody rb;
     public Vector3 initPos;
+    public float initx;
 
 	void Start () {
 		fx = GameObject.FindGameObjectWithTag ("Player").GetComponent<FunctionControl> ();
@@ -21,7 +22,7 @@ public class MoveProjectiles : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        rb.position = new Vector3((float)(rb.position.x + dir * amount),
+    rb.position = new Vector3((float)(rb.position.x + dir * amount),
                  rb.position.y, (float)(initPos.z+fx.output(dir * amount + rb.position.x-initPos.x)));
     }
 	void OnTriggerEnter (Collider col) {
@@ -38,5 +39,9 @@ public class MoveProjectiles : MonoBehaviour {
             //temp.transform.parent = null;
             //temp.transform.position = transform.position;
         }
+    }
+    public void setInitPos () {
+        initPos = new Vector3(initx, initPos.y, (float)fx.output(initx));
+        rb.position = initPos;
     }
 }

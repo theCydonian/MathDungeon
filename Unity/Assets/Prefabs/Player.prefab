@@ -52,7 +52,7 @@ MonoBehaviour:
     type: 3}
   mSlope: 2
   startPos: 0
-  range: 21
+  range: 61
   divider: 0.4
   yint: 0
 --- !u!114 &1905181798
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   function: x^2
-  sensitivity: 0.5
+  sensitivity: 0.1
 --- !u!114 &2101119351
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -21,8 +21,12 @@ public class fireProj : MonoBehaviour
     public void fire () {
         GameObject p1 = Instantiate(projectile, transform);
         p1.GetComponent<MoveProjectiles>().dir = -1;
+        p1.GetComponent<MoveProjectiles>().initx = transform.position.x;
+        p1.GetComponent<MoveProjectiles>().setInitPos();
         GameObject p2 = Instantiate(projectile, transform);
         p2.GetComponent<MoveProjectiles>().dir = 1;
+        p2.GetComponent<MoveProjectiles>().initx = transform.position.x;
+        p2.GetComponent<MoveProjectiles>().setInitPos();
         GameObject[] markers = GameObject.FindGameObjectsWithTag("Mark");
         foreach (GameObject m in markers) {
             Destroy(m);
