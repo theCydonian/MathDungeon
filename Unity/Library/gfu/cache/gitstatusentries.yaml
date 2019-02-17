@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-02-16T20:46:28.750-08:00
   initializedAtString: 2019-02-16T20:45:21.017-08:00
   entries:
@@ -114,10 +115,18 @@ MonoBehaviour:
     staged: 0
   - path: Unity/Library/assetDatabase3
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/assetDatabase3
+=======
+  lastUpdatedAtString: 2019-02-16T20:36:34.048-08:00
+  initializedAtString: 2019-02-16T20:36:33.279-08:00
+  entries:
+  - path: Unity/Library/assetDatabase3
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/assetDatabase3
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
     projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Unity/Library/CrashedAssetImports.txt
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/CrashedAssetImports.txt
     projectPath: Library/CrashedAssetImports.txt
@@ -138,28 +147,45 @@ MonoBehaviour:
     staged: 0
   - path: Unity/Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
+=======
+  - path: Unity/Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
     projectPath: Library/gfu/cache/gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/gfu/cache/gitstatusentries.yaml
+<<<<<<< HEAD
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+=======
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/gfu/cache/gittrackingstatus.yaml
+<<<<<<< HEAD
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+=======
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/gfu/cache/repoinfo.yaml
+<<<<<<< HEAD
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/repoinfo.yaml
+=======
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/repoinfo.yaml
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
     projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Unity/Library/metadata/02/023d8e79c5750472e898f9a495805543
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/02/023d8e79c5750472e898f9a495805543
     projectPath: Library/metadata/02/023d8e79c5750472e898f9a495805543
@@ -270,10 +296,15 @@ MonoBehaviour:
     staged: 0
   - path: Unity/Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/shadercompiler-UnityShaderCompiler0.log
+=======
+  - path: Unity/Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/shadercompiler-UnityShaderCompiler0.log
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
     fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
     projectPath: Library/StateCache/Hierarchy/d008d2-mainStage.json
@@ -610,3 +641,5 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+=======
+>>>>>>> 00959f3d0b0a6728b6172699a552de9463abf0c2
