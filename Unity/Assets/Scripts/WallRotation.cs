@@ -21,13 +21,13 @@ public class WallRotation : MonoBehaviour
     void Update()
     {
           if (right) {
-            if (sum < 45)
+            if (sum < 30)
             {
                 wall.transform.Rotate(0, 0, -1.0f);
                 sum += 1.0f;
             }
           } else {
-            if (sum < 45)
+            if (sum < 30)
             {
                 wall.transform.Rotate(0, 0, 1.0f);
                 sum += 1.0f;
