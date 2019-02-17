@@ -54,7 +54,7 @@ public class FunctionControl : MonoBehaviour {
 				case "^":
 					t1 = eval.Pop ();
 					t2 = eval.Pop ();
-					eval.Push (Mathf.Pow ((float)(t2), (float)(t1)));
+					eval.Push (Mathf.Pow ((float)(t2), (float)(t1/sensitivity)));
 					break;
 				}
 			} else {
