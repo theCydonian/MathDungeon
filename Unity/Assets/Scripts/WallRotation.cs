@@ -10,32 +10,28 @@ public class WallRotation : MonoBehaviour
 
     public GameObject wall;
     public bool right;
-    private int i = 0;
-    private int l = 0;
+    private float sum = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-      if (right) {
-        wall.transform.Rotate(Vector3.forward * 50);
-      } else {
-        wall.transform.Rotate(Vector3.forward * -50);
-      }
     }
 
     // Update is called once per frame
     void Update()
     {
-      if (l % 2 == 0) {
-        if (i < 10) {
           if (right) {
-            wall.transform.Rotate(Vector3.forward * -(10 - i));
+            if (sum < 45)
+            {
+                wall.transform.Rotate(0, 0, -1.0f);
+                sum += 1.0f;
+            }
           } else {
-            wall.transform.Rotate(Vector3.forward * (10 - i));
+            if (sum < 45)
+            {
+                wall.transform.Rotate(0, 0, 1.0f);
+                sum += 1.0f;
+            }
           }
-          i += 1;
         }
       }
-      l += 1;
-    }
-}
