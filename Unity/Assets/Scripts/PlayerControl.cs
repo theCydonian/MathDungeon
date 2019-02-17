@@ -8,12 +8,15 @@ public class PlayerControl : MonoBehaviour
     // y - y1 = m(x - x1)
     [Range(-10, 10)]
     public float mSlope = 2.0f;
+    [Range(-10, 10)]
+    public float startPos = 0;
 
     private Vector2 playerPosition;
     private Vector3 Y_function;
 
     private bool changeParams = false;
     public int range;
+    private int startNum = -10;
     GameObject[] pointGuide;
     // Start is called before the first frame update
     void Start()
@@ -24,27 +27,35 @@ public class PlayerControl : MonoBehaviour
         {
             pointGuide[i] = (GameObject)Instantiate(pointObject);
             pointGuide[i].transform.parent = null;
-
         }
+
     }
 
-    // 
+    //
     void Update()
     {
         for (int i = 0; i < range; i++)
         {
-            float d_x = (i + 0.5f) / 5f;
+            float divider = 5f;
+            float t = (i + startNum)/divider;
+
+            float function = t * t;
 
             playerPosition = new Vector2(transform.localPosition.z, transform.localPosition.x);
 
-            float function = mSlope * d_x;
+            Y_function.z = t - playerPosition.y;
+            Y_function.x = function - playerPosition.x;
 
-            Y_function.z = d_x - playerPosition.y;
-            Y_function.x = -function - playerPosition.x;
-
+            Y_function.z += (range/2)/divider;
+            Y_function.x -= ((range/2)/divider) * ((range/2)/divider);
             pointGuide[i].transform.localPosition = Y_function;
-            
+
         }
+
+    }
+
+    void functions () {
+
     }
 
     void Aiming()
