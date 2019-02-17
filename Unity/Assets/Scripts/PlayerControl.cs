@@ -34,6 +34,9 @@ public class PlayerControl : MonoBehaviour
         {
             pointGuide[i] = (GameObject)Instantiate(pointObject);
             pointGuide[i].transform.parent = transform;
+            pointGuide[i].transform.position = new Vector3(pointGuide[i].transform.position.x,
+                1.5f, pointGuide[i].transform.position.z);
+            pointGuide[i].transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         }
 
     }
@@ -48,7 +51,7 @@ public class PlayerControl : MonoBehaviour
             double ypos = fx.output(xpos);
             if (!(Double.IsNegativeInfinity(ypos) || Double.IsInfinity(ypos) || Double.IsNaN(ypos) || ypos > 100 || ypos < -100))
             {
-                pointGuide[i].transform.localPosition = new Vector3((float)ypos, 0, (float)xpos);
+                pointGuide[i].transform.localPosition = new Vector3((float)ypos, 1.5f, (float)xpos);
             }
 
         }

@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dir: 1
   amount: 0.03
-  boom: {fileID: 0}
+  boom: {fileID: 100000, guid: e5fb4b784178f44b3a4ad0e86dbbcece, type: 3}
 --- !u!54 &1334980498
 Rigidbody:
   m_ObjectHideFlags: 0
