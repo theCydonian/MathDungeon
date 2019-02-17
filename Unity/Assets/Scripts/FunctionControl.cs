@@ -6,6 +6,7 @@ using UnityEngine;
 public class FunctionControl : MonoBehaviour {
 
 	public string function;
+    public double sensitivity;
 
 	// Use this for initialization
 	void Start () {
@@ -57,7 +58,7 @@ public class FunctionControl : MonoBehaviour {
 					break;
 				}
 			} else {
-				eval.Push (Convert.ToDouble(current));
+				eval.Push (Convert.ToDouble(current)*sensitivity);
 			}
 		}
 		return eval.Pop();

@@ -258,3 +258,4 @@
 /Users/macbookair13/Desktop/MathDungeon/Unity/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/macbookair13/Desktop/MathDungeon/Unity/obj/Debug/Assembly-CSharp.dll
 /Users/macbookair13/Desktop/MathDungeon/Unity/obj/Debug/Assembly-CSharp.pdb
+/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache

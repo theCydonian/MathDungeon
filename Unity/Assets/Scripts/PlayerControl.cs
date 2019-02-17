@@ -51,7 +51,7 @@ public class PlayerControl : MonoBehaviour
             double ypos = fx.output(xpos);
             if (!(Double.IsNegativeInfinity(ypos) || Double.IsInfinity(ypos) || Double.IsNaN(ypos) || ypos > 100 || ypos < -100))
             {
-                pointGuide[i].transform.localPosition = new Vector3((float)ypos, 1.5f, (float)xpos);
+                pointGuide[i].transform.localPosition = new Vector3((float)xpos, 1.5f, (float)ypos);
             }
 
         }

@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6112822082102183038}
-  - component: {fileID: 708455647364973786}
-  - component: {fileID: 5196272975737174025}
+  - component: {fileID: 99024320004847681}
+  - component: {fileID: 5439307729875566028}
   m_Layer: 0
   m_Name: Block2
   m_TagString: Wall
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &708455647364973786
+--- !u!65 &99024320004847681
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,7 +46,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &5196272975737174025
+--- !u!65 &5439307729875566028
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,6 +66,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6112822082102183038}
     m_Modifications:
+    - target: {fileID: 100000, guid: ac4780006738b4efba72bd0b79e4a9ee, type: 3}
+      propertyPath: m_Name
+      value: Block2
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ac4780006738b4efba72bd0b79e4a9ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -109,10 +113,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: ac4780006738b4efba72bd0b79e4a9ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: ac4780006738b4efba72bd0b79e4a9ee, type: 3}
-      propertyPath: m_Name
-      value: Block2
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: ac4780006738b4efba72bd0b79e4a9ee, type: 3}
       propertyPath: m_Materials.Array.data[0]

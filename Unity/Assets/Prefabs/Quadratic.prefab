@@ -702,6 +702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5162668800264948637}
+  - component: {fileID: 1589772287}
   m_Layer: 5
   m_Name: Quadratic
   m_TagString: Untagged
@@ -716,7 +717,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5162668800264948626}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -738,6 +739,25 @@ RectTransform:
   m_AnchoredPosition: {x: -550.6, y: 313.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1589772287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162668800264948626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c9d71786e534773a8984f4a2277bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: {fileID: 5162668800264948626}
+  ASlider: {fileID: 5162668800931051210}
+  BSlider: {fileID: 0}
+  HSlider: {fileID: 5162668799780306760}
+  KSlider: {fileID: 5162668801210005206}
+  mSlider: {fileID: 0}
+  GUIString1: 
 --- !u!1 &5162668800277554444
 GameObject:
   m_ObjectHideFlags: 0

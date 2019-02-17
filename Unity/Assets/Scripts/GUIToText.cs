@@ -28,7 +28,7 @@ public class GUIToText : MonoBehaviour
 
     private string GUIString;
 
-    string GUIString1 = "";
+    public string GUIString1 = "";
 
     // Start is called before the first frame update
     void Start()
@@ -52,7 +52,6 @@ public class GUIToText : MonoBehaviour
         } else {
           BString = "" + BValue;
         }
-        Debug.Log(mSlider.value);
         GUIString = "(" + MString + " * (x)) + " + BString;
       } else if (Type.name == "Quadratic") {
         AValue = Mathf.RoundToInt(ASlider.value * 20f) - 10;
@@ -96,6 +95,5 @@ public class GUIToText : MonoBehaviour
         GUIString = "(" + AString + " * ((x - " + HString + ")^3)) + " + KString;
       }
       GUIString1 = GUIString;
-      Debug.Log(GUIString1);
     }
 }
