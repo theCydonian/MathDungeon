@@ -1,6 +1,18 @@
 {
+<<<<<<< HEAD
 	"process_id" : 25583,
 	"version" : "2018.3.6f1",
 	"app_path" : "/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app",
 	"app_contents_path" : "/Applications/Unity/Hub/Editor/2018.3.6f1/Unity.app/Contents"
+||||||| merged common ancestors
+	"process_id" : 74542,
+	"version" : "2018.3.2f1",
+	"app_path" : "/Applications/Unity/Hub/Editor/2018.3.2f1/Unity.app",
+	"app_contents_path" : "/Applications/Unity/Hub/Editor/2018.3.2f1/Unity.app/Contents"
+=======
+	"process_id" : 41789,
+	"version" : "2018.3.0f2",
+	"app_path" : "/Applications/Unity/Unity.app",
+	"app_contents_path" : "/Applications/Unity/Unity.app/Contents"
+>>>>>>> b0649d9617f678f43ceb888d8d9859d8bcca541f
 }
