@@ -13,6 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-16T22:43:17.456-08:00
+  lastUpdatedAtString: 2019-02-16T22:43:47.813-08:00
   initializedAtString: 2019-02-16T22:43:10.867-08:00
-  entries: []
+  entries:
+  - path: Unity/Library/gfu/cache/branches.yaml
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
