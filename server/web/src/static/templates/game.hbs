@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Math Dungeon</title>
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <link rel="stylesheet" href="/static/style/lesson.css">
+        <script src="/static/webgl-build/{{gameName}}/Build/UnityLoader.js"></script>
+        <script src="/static/webgl-build/{{gameName}}/TemplateData/UnityProgress.js"></script>
+        <script src="/static/js/webgl.js"></script>
+    </head>
+    <body>
+        <nav>
+            <h1>
+                <a href="/">
+                    Math Dungeon
+                </a>
+            </h1>
+        </nav>
+        <div class="content">
+            <h1>
+                Linear Functions
+            </h1>
+            <div style="width: 800px; height: 400px;" id="game-container"></div>
+        </div>
+
+        <script>
+            loadWebGL("{{gameName}}");
+        </script>
+    </body>
+</html>

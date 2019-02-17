@@ -9,6 +9,7 @@ let db = require('./util/db.js');
 let forumTemplate = templates.get('./web/src/static/templates/forum.hbs');
 let forumPostTemplate = templates.get('./web/src/static/templates/forum-post.hbs');
 let lessonTemplate = templates.get('./web/src/static/templates/lesson.hbs');
+let gameTemplate = templates.get('./web/src/static/templates/game.hbs');
 
 app.use(bodyParser.json());
 
@@ -25,6 +26,13 @@ app.get('/lesson/:lesson', (req, res) => {
     );
     
     res.send(lessonTemplate({ lessonHTML }));
+});
+
+
+app.get('/game/:name', (req, res) => {
+    let name = req.params.name;
+    
+    res.send(gameTemplate({ gameName: name }));
 });
 
 app.get('/forum', (req, res) => {
