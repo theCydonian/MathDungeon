@@ -84,12 +84,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2516907951330040288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6c8a11bb65c44cc91099fb4e5d0c58, type: 3}
+  m_Script: {fileID: 11500000, guid: 686b1299034a94a5bb24bbe66c997295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 2516907950253388482}
   body: {fileID: 2516907951882119393}
   dead: 0
+--- !u!65 &485025595359006403
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2516907951330040288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.765071, y: 1.7656555, z: 5.1770754}
+  m_Center: {x: 0.00016748905, y: 0.0000005066396, z: 2.7526827}
 --- !u!54 &2516907951882219085
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,14 +139,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2516907950493345061}
     m_Modifications:
-    - target: {fileID: 100000, guid: 65e65d28a117145caa3ab202aa5ef4e3, type: 3}
-      propertyPath: m_Name
-      value: Skeleton_Head
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 65e65d28a117145caa3ab202aa5ef4e3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65e65d28a117145caa3ab202aa5ef4e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -178,6 +183,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65e65d28a117145caa3ab202aa5ef4e3, type: 3}
+      propertyPath: m_Name
+      value: Skeleton_Head
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 65e65d28a117145caa3ab202aa5ef4e3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65e65d28a117145caa3ab202aa5ef4e3, type: 3}
 --- !u!1 &2516907950253388482 stripped
@@ -204,8 +217,8 @@ PrefabInstance:
       value: Skeleton
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c9fe51fefb76547498d08d5b7e7a085d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9fe51fefb76547498d08d5b7e7a085d, type: 3}
       propertyPath: m_LocalPosition.x
