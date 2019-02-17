@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir: 1
-  amount: 0.05
+  amount: 0.03
   boom: {fileID: 0}
 --- !u!54 &1334980498
 Rigidbody:
