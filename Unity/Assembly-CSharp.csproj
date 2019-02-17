@@ -69,6 +69,7 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\Scripts\deleteSelf.cs" />
+    <Compile Include="Assets\Scripts\Endgame.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\FireButton.cs" />
     <Compile Include="Assets\Scripts\fireProj.cs" />
