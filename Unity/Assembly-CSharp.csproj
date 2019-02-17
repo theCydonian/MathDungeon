@@ -67,8 +67,8 @@
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\PlusOrMinus.cs" />
     <Compile Include="Assets\Scripts\ScrollBar.cs" />
-    <None Include="Assets\ModelMaterials\AimShader.shader" />
     <None Include="Assets\Materials\AimShader.shader" />
+    <None Include="Assets\ModelMaterials\AimShader.shader" />
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>/Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal Projects/Programming/unity/MathDungeon/Unity/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
