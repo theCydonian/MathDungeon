@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/To Be Continued.unity
+- path: Assets/Scenes/Levels/Levels/Linear3.unity
   isLoaded: 1
   isActive: 1
