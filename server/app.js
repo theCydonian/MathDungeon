@@ -38,8 +38,19 @@ app.get('/game/:name', (req, res) => {
     switch (name) {
         case "linear-1":
             title = "Linear Functions #1";
+            nextURL = "game/linear-2";
+            nextTitle = "Next!";
+            break;
+        case "linear-2":
+            title = "Linear Functions #2";
+            nextURL = "game/linear-3";
+            nextTitle = "Next!";
+            break;
+        case "linear-3":
+            title = "Linear Functions #3";
             nextURL = "lesson/quadratic";
             nextTitle = "Next!"
+            break;
     }
 
     res.send(gameTemplate({ 
