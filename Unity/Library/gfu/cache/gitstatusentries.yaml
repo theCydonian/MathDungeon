@@ -13,90 +13,258 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-17T06:31:08.939-08:00
-  initializedAtString: 2019-02-17T06:31:08.231-08:00
+  lastUpdatedAtString: 2019-02-19T14:26:02.735-08:00
+  initializedAtString: 2019-02-19T14:22:18.436-08:00
   entries:
+  - path: Unity/Assembly-CSharp.csproj
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assets/Scenes/End Screen.unity
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assets/Scenes/End Screen.unity
+    projectPath: Assets/Scenes/End Screen.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assets/Scenes/To Be Continued.unity
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assets/Scenes/To Be Continued.unity
+    projectPath: Assets/Scenes/To Be Continued.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assets/Scripts/Lose.cs
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assets/Scripts/Lose.cs
+    projectPath: Assets/Scripts/Lose.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Assets/Scripts/PersistentData.cs
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assets/Scripts/PersistentData.cs
+    projectPath: Assets/Scripts/PersistentData.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Assets/Scripts/PersistentData.cs.meta
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assets/Scripts/PersistentData.cs.meta
+    projectPath: Assets/Scripts/PersistentData.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Assets/Scripts/PersonMove.cs
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Assets/Scripts/PersonMove.cs
+    projectPath: Assets/Scripts/PersonMove.cs
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Unity/Library/assetDatabase3
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/assetDatabase3
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/assetDatabase3
     projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Unity/Library/CurrentLayout.dwlt
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
+  - path: Unity/Library/CrashedAssetImports.txt
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Library/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/EditorInstance.json
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/EditorInstance.json
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
     status: 1
     staged: 0
+  - path: Unity/Library/EditorUserBuildSettings.asset
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/EditorUserBuildSettings.asset
+    projectPath: Library/EditorUserBuildSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Unity/Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/gfu/cache/gitstatusentries.yaml
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/gfu/cache/gittrackingstatus.yaml
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Unity/Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Unity/Library/LastSceneManagerSetup.txt
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/LastSceneManagerSetup.txt
-    projectPath: Library/LastSceneManagerSetup.txt
+  - path: Unity/Library/InspectorExpandedItems.asset
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/metadata/00/00000000000000009000000000000000
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/metadata/00/00000000000000009000000000000000
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/00/00000000000000009000000000000000
     projectPath: Library/metadata/00/00000000000000009000000000000000
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Library/metadata/00/0000000000000000a100000000000000
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/metadata/00/0000000000000000a100000000000000
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/00/0000000000000000a100000000000000
     projectPath: Library/metadata/00/0000000000000000a100000000000000
     originalPath: 
     status: 3
     staged: 0
-  - path: Unity/Library/ShaderCache.db
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/ShaderCache.db
-    projectPath: Library/ShaderCache.db
+  - path: Unity/Library/metadata/31/3182943eabfbb43c39d2b5ce708eb13d
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/31/3182943eabfbb43c39d2b5ce708eb13d
+    projectPath: Library/metadata/31/3182943eabfbb43c39d2b5ce708eb13d
     originalPath: 
     status: 3
     staged: 0
-  - path: Unity/Library/StateCache/SceneView/0c6032-mainStage.json
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Library/StateCache/SceneView/0c6032-mainStage.json
-    projectPath: Library/StateCache/SceneView/0c6032-mainStage.json
+  - path: Unity/Library/metadata/32/324daa7e7d5f04627b1804b0c256829a
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/32/324daa7e7d5f04627b1804b0c256829a
+    projectPath: Library/metadata/32/324daa7e7d5f04627b1804b0c256829a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/metadata/32/324daa7e7d5f04627b1804b0c256829a.info
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/32/324daa7e7d5f04627b1804b0c256829a.info
+    projectPath: Library/metadata/32/324daa7e7d5f04627b1804b0c256829a.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Unity/Library/metadata/58/583045f29e79543bda80e7c10ffb8c3d
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/58/583045f29e79543bda80e7c10ffb8c3d
+    projectPath: Library/metadata/58/583045f29e79543bda80e7c10ffb8c3d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/metadata/6b/6b5d3c26775854d2a8df685bae42cd7c
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/6b/6b5d3c26775854d2a8df685bae42cd7c
+    projectPath: Library/metadata/6b/6b5d3c26775854d2a8df685bae42cd7c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def
+    projectPath: Library/metadata/a2/a202a68eb9da7425ea5225ebf18c2def
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d
+    projectPath: Library/metadata/e8/e891aaabc464f43499cd3ef368e5d84d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ScriptMapper
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/ScriptMapper
+    projectPath: Library/ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/StateCache/Hierarchy/9b7e11-mainStage.json
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/StateCache/Hierarchy/9b7e11-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/9b7e11-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/d008d2-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/StateCache/SceneView/bfb5f0-mainStage.json
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Library/StateCache/SceneView/bfb5f0-mainStage.json
+    projectPath: Library/StateCache/SceneView/bfb5f0-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/ProjectSettings/ProjectVersion.txt
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/ProjectSettings/ProjectVersion.txt
+    projectPath: ProjectSettings/ProjectVersion.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Temp/__Backupscenes/0.backup
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     status: 3
     staged: 0
   - path: Unity/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     originalPath: 
     status: 1
     staged: 0
   - path: Unity/Temp/UnityLockfile
-    fullPath: /Users/macbookair13/Desktop/MathDungeon/Unity/Temp/UnityLockfile
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Temp/UnityLockfile
     projectPath: Temp/UnityLockfile
     originalPath: 
     status: 1
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-b55e959d5ef174c5299f3efc6ffa358d
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Temp/UnityTempFile-b55e959d5ef174c5299f3efc6ffa358d
+    projectPath: Temp/UnityTempFile-b55e959d5ef174c5299f3efc6ffa358d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-b6c4640fed3a24a57938c6626074c1bd
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Temp/UnityTempFile-b6c4640fed3a24a57938c6626074c1bd
+    projectPath: Temp/UnityTempFile-b6c4640fed3a24a57938c6626074c1bd
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Unity.sln
+    fullPath: /Users/lukas/hackathon/MathDungeon/Unity/Unity.sln
+    projectPath: Unity.sln
+    originalPath: 
+    status: 3
     staged: 0

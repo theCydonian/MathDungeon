@@ -12,12 +12,13 @@ public class PersonMove : MonoBehaviour
     public Button retryButton;
     private int i = 0;
     private int j = 0;
+
     // Start is called before the first frame update
     void Start()
     {
       mainText.text = "";
       retryButton.gameObject.SetActive(false);
-      retryButton.onClick.AddListener(Retry);
+      //retryButton.onClick.AddListener(Retry);
     }
 
     // Update is called once per frame
@@ -32,7 +33,14 @@ public class PersonMove : MonoBehaviour
       }
     }
 
-    void Retry() {
-      // add Retry functionality
-    }
+    /*void Retry() {
+      persistentScript = GameObject.Find("PersistentObject").GetComponent<PersistentData>();
+      lastScene = persistentScript.RetrunLevel();
+
+      if (lastScene != "") {
+        SceneManager.LoadScene(lastScene);
+      } else {
+        SceneManager.LoadScene("Linear1");
+      }
+    }*/
 }
