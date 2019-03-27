@@ -8,40 +8,16 @@ public class MoveProjectiles : MonoBehaviour {
 	public int dir; // 1 = right; -1 = left;
 	public double amount;
     private float time;
-    public GameObject boom;
-    private Rigidbody rb;
-    public Vector3 initPos;
-    public float initx;
+    private PlayerControl pc;
 
 	void Start () {
 		fx = GameObject.FindGameObjectWithTag ("Player").GetComponent<FunctionControl> ();
         time = 0;
-        rb = gameObject.GetComponent<Rigidbody>();
-        initPos = rb.position;
     }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-    rb.position = new Vector3((float)(rb.position.x + dir * amount),
-                 rb.position.y, (float)(initPos.z+fx.output(dir * amount + rb.position.x-initPos.x)));
-    }
-	void OnTriggerEnter (Collider col) {
-		if (col.gameObject.tag == "Wall") {
-            GameObject temp = Instantiate (boom);
-            temp.transform.parent = null;
-            temp.transform.position = transform.position;
-            Destroy(gameObject);
-        }
-        if (col.gameObject.tag == "Enemy")
-        {
-            col.gameObject.GetComponent<Enemy>().Die();
-            //GameObject temp = Instantiate(boom);
-            //temp.transform.parent = null;
-            //temp.transform.position = transform.position;
-        }
-    }
-    public void setInitPos () {
-        initPos = new Vector3(initx, initPos.y, (float)fx.output(initx));
-        rb.position = initPos;
+        transform.localPosition = new Vector3(transform.localPosition.x + (dir * (float)amount), transform.localPosition.y, (float)fx.output(transform.localPosition.x + (dir * amount)));
+
     }
 }
