@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-02-17T09:41:15.944-08:00
-  initializedAtString: 2019-02-17T09:41:15.944-08:00
+  lastUpdatedAtString: 2019-04-04T08:02:45.282-07:00
+  initializedAtString: 2019-04-04T08:02:45.282-07:00
   currentGitRemote:
     name: origin
     url: https://github.com/theCydonian/MathDungeon.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: unity/good
-    tracking: 
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: unity/good
+    name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/theCydonian/MathDungeon.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/theCydonian/MathDungeon.git
