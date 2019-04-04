@@ -1,5 +1,4 @@
-﻿// LUKE GO TO LINE 168
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,19 +10,19 @@ public class UpdatedGUIToText : MonoBehaviour
     public Material invisible;
     public GameObject button;
     public Text power;
-    public Vector2 range;
+    public int maxRange;
+    public int minRange;
 
     private GameObject MPoint, BPoint, APoint, HPoint, KPoint, PowerPoint;
-    private int m, b, a, h, k;
-    private string[] stringVars;
+    private string[] stringVars, values;
     private int[] vars;
     private bool[] varSets;
     private GameObject[] scrollImage;
     private Vector3[] imagePosition;
-    private float minRange;
-    private float maxRange;
+    private float arrayLength, startIndex, setVarIndex;
     private Text powerOFunc;
-    private string mValue, bValue, aValue, hValue, kValue;
+    private int signIndex;
+    private string[] signArray;
 
     // Start is called before the first frame update
     void Start()
@@ -34,48 +33,44 @@ public class UpdatedGUIToText : MonoBehaviour
         HPoint = GameObject.Find("HPoint");
         KPoint = GameObject.Find("KPoint");
         PowerPoint = GameObject.Find("PowerPoint");
-        minRange = range.x;
-        maxRange = range.y;
+        values = new string[5];
+        signArray = new string[3];
+        signArray[0] = "+ ";
+        signArray[1] = "- ";
+        signArray[2] = "+ ";
+        vars = new int[5];
+        imagePosition = new Vector3[5];
+        imagePosition[0] = MPoint.transform.position;
+        imagePosition[1] = BPoint.transform.position;
+        imagePosition[2] = APoint.transform.position;
+        imagePosition[3] = HPoint.transform.position;
+        imagePosition[4] = KPoint.transform.position;
+        stringVars = new string[5];
+        stringVars[0] = "M";
+        stringVars[1] = "B";
+        stringVars[2] = "A";
+        stringVars[3] = "H";
+        stringVars[4] = "K";
+        varSets = new bool[5];
+        for (int k = 0; k < 5; k ++)
+        {
+            varSets[k] = false;
+        }
 
         if (degree == 1)
         {
-            vars = new int[2];
-            vars[0] = m;
-            vars[1] = b;
-            imagePosition = new Vector3[2];
-            imagePosition[0] = MPoint.transform.position;
-            imagePosition[1] = BPoint.transform.position;
-            stringVars = new string[2];
-            stringVars[0] = "M";
-            stringVars[1] = "B";
-            varSets = new bool[2];
-            varSets[0] = false;
-            varSets[1] = false;
+            arrayLength = 2;
+            startIndex = 0;
         }
         else
         {
-            powerOFunc = Instantiate(power, PowerPoint.transform.position, Quaternion.Euler(0, 0, 0), gameObject.transform);
-            powerOFunc.GetComponent<Text>().text = "" + degree;
-            vars = new int[3];
-            vars[0] = a;
-            vars[1] = h;
-            vars[2] = k;
-            imagePosition = new Vector3[3];
-            imagePosition[0] = APoint.transform.position;
-            imagePosition[1] = HPoint.transform.position;
-            imagePosition[2] = KPoint.transform.position;
-            stringVars = new string[3];
-            stringVars[0] = "A";
-            stringVars[1] = "H";
-            stringVars[2] = "K";
-            varSets = new bool[3];
-            varSets[0] = false;
-            varSets[1] = false;
-            varSets[2] = false;
+            Instantiate(power, PowerPoint.transform.position, Quaternion.Euler(0, 0, 0), gameObject.transform).GetComponent<Text>().text = "" + degree;
+            arrayLength = 3;
+            startIndex = 2;
         }
 
         scrollImage = new GameObject[vars.Length];
-        for (int i = 0; i < vars.Length; i++)
+        for (int i = (int)startIndex; i < startIndex + arrayLength; i++)
         {
             scrollImage[i] = Instantiate(button, imagePosition[i], Quaternion.Euler(0, 0, 0), gameObject.transform);
             scrollImage[i].GetComponent<RectTransform>().sizeDelta = size;
@@ -87,82 +82,28 @@ public class UpdatedGUIToText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(values[0]);
         if (degree == 0)
         {
             GetComponent<Text>().text = "CHANGE DEGREE";
         }
         else if (degree == 1)
         {
-            if (varSets[0] == false)
-            {
-                mValue = "M";
-            }
-            else
-            {
-                mValue = "" + m;
-            }
+            BasicCoef(0);
 
-            if (varSets[1] == false)
-            {
-                bValue = "+ B";
-            }
-            else
-            {
-                if (Mathf.Sign(b) > 0)
-                {
-                    bValue = "+ " + b;
-                }
-                else
-                {
-                    bValue = "- " + Mathf.Abs(b);
-                }
-            }
+            ComplexCoef(1, true);
 
-            GetComponent<Text>().text = "F(X) = " + mValue + " X " + bValue;
+            GetComponent<Text>().text = "F(X) = " + values[0] + " X " + values[1];
         }
         else
         {
-            if (varSets[0] == false)
-            {
-                aValue = "A";
-            }
-            else
-            {
-                aValue = "" + a;
-            }
+            BasicCoef(2);
 
-            if (varSets[1] == false)
-            {
-                hValue = "- H";
-            }
-            else
-            {
-                if (Mathf.Sign(h) > 0)
-                {
-                    hValue = "- " + h;
-                }
-                else
-                {
-                    hValue = "+ " + Mathf.Abs(h);
-                }
-            }
+            ComplexCoef(3, false);
 
-            if (varSets[2] == false)
-            {
-                kValue = "+ K";
-            }
-            else
-            {
-                if (Mathf.Sign(k) > 0)
-                {
-                    kValue = "+ " + k;
-                }
-                else
-                {
-                    kValue = "- " + Mathf.Abs(k);
-                }
-            }
-            GetComponent<Text>().text = "F(X) = " + aValue + "(X " + hValue + ") " + kValue;
+            ComplexCoef(4, true);
+
+            GetComponent<Text>().text = "F(X) = " + values[2] + "(X " + values[3] + ") " + values[4];
         }
 
         // LUKE SEND GetComponent<Text>().text to your post fix script from here
@@ -170,30 +111,55 @@ public class UpdatedGUIToText : MonoBehaviour
 
     public void SetVar(string varName, float amount)
     {
-        if (varName == "M")
+        for (int l = 0; l < 5; l ++)
         {
-            m = (int)((amount * (maxRange - minRange)) + minRange);
-            varSets[0] = true;
+            if (stringVars[l] == varName)
+            {
+                setVarIndex = l;
+            }
         }
-        if (varName == "B")
+        Debug.Log(setVarIndex);
+        vars[(int)setVarIndex] = (int)((amount * (maxRange - minRange)) + minRange);
+        varSets[(int)setVarIndex] = true;
+    }
+
+    private void BasicCoef(int index)
+    {
+        if (varSets[index] == false)
         {
-            b = (int)((amount * (maxRange - minRange)) + minRange);
-            varSets[1] = true;
+            values[index] = stringVars[index];
         }
-        if (varName == "A")
+        else
         {
-            a = (int)((amount * (maxRange - minRange)) + minRange);
-            varSets[0] = true;
+            values[index] = "" + vars[index];
         }
-        if (varName == "H")
+    }
+
+    private void ComplexCoef(int index, bool positive)
+    {
+        if (positive)
         {
-            h = (int)((amount * (maxRange - minRange)) + minRange);
-            varSets[1] = true;
+            signIndex = 0;
         }
-        if (varName == "K")
+        else
         {
-            k = (int)((amount * (maxRange - minRange)) + minRange);
-            varSets[2] = true;
+            signIndex = 1;
+        }
+
+        if (varSets[index] == false)
+        {
+            values[index] = signArray[signIndex] + stringVars[index];
+        }
+        else
+        {
+            if (Mathf.Sign(vars[index]) > 0)
+            {
+                values[index] = signArray[signIndex] + vars[index];
+            }
+            else
+            {
+                values[index] = signArray[signIndex + 1] + Mathf.Abs(vars[index]);
+            }
         }
     }
 }

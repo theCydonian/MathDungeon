@@ -13,23 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-02-17T06:10:54.859-08:00
-  initializedAtString: 2019-02-17T06:10:54.803-08:00
+  lastUpdatedAtString: 2019-04-04T08:10:37.916-07:00
+  initializedAtString: 2019-04-04T08:10:37.800-07:00
   localBranches:
   - name: master
     tracking: origin/master
-  - name: dev/unity
-    tracking: origin/dev/unity
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/master
-    tracking: '[None]'
-  - name: origin/dev/unity
-    tracking: '[None]'
-  - name: origin/dev/web
-    tracking: '[None]'
-  - name: origin/dev/web-2
     tracking: '[None]'
   remotes:
   - name: origin
@@ -42,18 +34,12 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
-    - dev/unity
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/theCydonian/MathDungeon.git
       trackingBranch: master
-    - name: dev/unity
-      remote:
-        name: origin
-        url: https://github.com/theCydonian/MathDungeon.git
-      trackingBranch: dev/unity
   remoteConfigBranches:
     keys:
     - origin
@@ -61,9 +47,6 @@ MonoBehaviour:
     - Values:
       - HEAD
       - master
-      - dev/unity
-      - dev/web
-      - dev/web-2
     subKeyValues:
     - Values:
       - name: HEAD
@@ -72,21 +55,6 @@ MonoBehaviour:
           url: https://github.com/theCydonian/MathDungeon.git
         trackingBranch: 
       - name: master
-        remote:
-          name: origin
-          url: https://github.com/theCydonian/MathDungeon.git
-        trackingBranch: 
-      - name: dev/unity
-        remote:
-          name: origin
-          url: https://github.com/theCydonian/MathDungeon.git
-        trackingBranch: 
-      - name: dev/web
-        remote:
-          name: origin
-          url: https://github.com/theCydonian/MathDungeon.git
-        trackingBranch: 
-      - name: dev/web-2
         remote:
           name: origin
           url: https://github.com/theCydonian/MathDungeon.git

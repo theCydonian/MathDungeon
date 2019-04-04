@@ -18,7 +18,6 @@ public class ButtonScrollbar : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     void FixedUpdate()
     {
-        Debug.Log(pressed);
         if (pressed && (Input.GetMouseButton(0) || Input.GetMouseButton(1) || Input.GetMouseButton(2)))
         {
             float maxHeight = transform.GetChild(0).transform.position.y;
@@ -27,7 +26,6 @@ public class ButtonScrollbar : MonoBehaviour, IPointerEnterHandler, IPointerExit
             {
                 amount = -1 * (minHeight - Input.mousePosition.y) / (maxHeight - minHeight);
                 gameObject.transform.parent.GetComponent<UpdatedGUIToText>().SetVar(gameObject.name, amount);
-                Debug.Log(amount);
             }
 
         }
