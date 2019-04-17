@@ -68,7 +68,7 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\projectileCollision.cs" />
+    <Compile Include="Assets\Prefabs\Collide.cs" />
     <Compile Include="Assets\Scripts\deleteSelf.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\FireButton.cs" />
