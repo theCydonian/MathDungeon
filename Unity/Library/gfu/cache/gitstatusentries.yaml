@@ -13,13 +13,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-17T14:58:28.440-07:00
-  initializedAtString: 2019-04-17T14:58:14.231-07:00
+  lastUpdatedAtString: 2019-09-05T16:54:03.735-07:00
+  initializedAtString: 2019-09-05T16:37:00.356-07:00
   entries:
+  - path: Unity/.vs/Unity/xs/UserPrefs.xml
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/.vs/Unity/xs/UserPrefs.xml
+    projectPath: .vs/Unity/xs/UserPrefs.xml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Unity/Library/assetDatabase3
     fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
       Projects/Programming/unity/MathDungeon/Unity/Library/assetDatabase3
     projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/CurrentLayout.dwlt
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/EditorInstance.json
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/expandedItems
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/expandedItems
+    projectPath: Library/expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -34,6 +62,13 @@ MonoBehaviour:
     fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
       Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -58,6 +93,34 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Unity/Library/LastSceneManagerSetup.txt
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/ShaderCache.db
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/ShaderCache.db
+    projectPath: Library/ShaderCache.db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Unity/Library/StateCache/Hierarchy/d008d2-5031454a7e6b648749.json
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Library/StateCache/Hierarchy/d008d2-5031454a7e6b648749.json
+    projectPath: Library/StateCache/Hierarchy/d008d2-5031454a7e6b648749.json
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
     fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
       Projects/Programming/unity/MathDungeon/Unity/Library/StateCache/Hierarchy/d008d2-mainStage.json
@@ -71,4 +134,81 @@ MonoBehaviour:
     projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     status: 3
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-399e631d691624fe4b4b073837988b97
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-399e631d691624fe4b4b073837988b97
+    projectPath: Temp/UnityTempFile-399e631d691624fe4b4b073837988b97
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-5dc0e3c4e58c649d2838e5593e4ef6f5
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-5dc0e3c4e58c649d2838e5593e4ef6f5
+    projectPath: Temp/UnityTempFile-5dc0e3c4e58c649d2838e5593e4ef6f5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-62741b81d30254c27afe306d81e8abdd
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-62741b81d30254c27afe306d81e8abdd
+    projectPath: Temp/UnityTempFile-62741b81d30254c27afe306d81e8abdd
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-724326144fbb74aedb1a3681f0fb9815
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-724326144fbb74aedb1a3681f0fb9815
+    projectPath: Temp/UnityTempFile-724326144fbb74aedb1a3681f0fb9815
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-79ead14e2cb854edca13881070a37a65
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-79ead14e2cb854edca13881070a37a65
+    projectPath: Temp/UnityTempFile-79ead14e2cb854edca13881070a37a65
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-7f294d788f45e47c5941c0ead398ed20
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-7f294d788f45e47c5941c0ead398ed20
+    projectPath: Temp/UnityTempFile-7f294d788f45e47c5941c0ead398ed20
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-8db00065a8dc64e23948d21229116fc4
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-8db00065a8dc64e23948d21229116fc4
+    projectPath: Temp/UnityTempFile-8db00065a8dc64e23948d21229116fc4
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-bc921aed6cc7f4c908ca5deda720dda5
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-bc921aed6cc7f4c908ca5deda720dda5
+    projectPath: Temp/UnityTempFile-bc921aed6cc7f4c908ca5deda720dda5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-cb4e13eab795444189c085bdef8a0e19
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-cb4e13eab795444189c085bdef8a0e19
+    projectPath: Temp/UnityTempFile-cb4e13eab795444189c085bdef8a0e19
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-da6741e8f7d1245eaa3c3c0d10d5048f
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-da6741e8f7d1245eaa3c3c0d10d5048f
+    projectPath: Temp/UnityTempFile-da6741e8f7d1245eaa3c3c0d10d5048f
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Unity/Temp/UnityTempFile-e3d7521c1ec0444c584211a99f93f30a
+    fullPath: /Users/Luke_MacBook/Dropbox (The Harris Group)/#1 - Luke Personal Folder/Personal
+      Projects/Programming/unity/MathDungeon/Unity/Temp/UnityTempFile-e3d7521c1ec0444c584211a99f93f30a
+    projectPath: Temp/UnityTempFile-e3d7521c1ec0444c584211a99f93f30a
+    originalPath: 
+    status: 5
     staged: 0
